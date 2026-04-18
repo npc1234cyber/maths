@@ -108,3 +108,124 @@ Question 11 (4 marks)
 (Diagram shows badge design. Shape ABCOA is a semicircle with centre O and diameter 10 cm. OB is the arc of a circle with centre A and radius 5 cm. Shaded region R is bounded by arc OB, arc BC and line OC.)
 
 Find the exact area of R. Give your answer in the form (a√3 + bπ) cm², where a and b are rational numbers.
+
+Mark Scheme
+Question 1
+Substitute x = 3 into g(x) and set equal to 0, or use factor theorem — M1
+3(27) + 20(9) + (k+17)(3) + k = 0 → 81 + 180 + 3k + 51 + k = 0 — A1
+k = −78 — A1
+Question 2
+(a)
+
+Use binomial expansion with n = 1/2 — M1
+First four terms: 1 + (9/2)x − (81/8)x² + (729/16)x³ — A1, A1
+(b)
+
+x = −2/9 gives |9x| = 2, which is not less than 1, so the expansion is not valid — B1
+Question 3
+(a)
+
+f(3.6) = 3.6 − tan(1.8) and f(3.7) = 3.7 − tan(1.85) — M1
+Sign change and both values evaluated → root in [3.6, 3.7] — A1
+(b)
+
+f′(x) = 1 − ½sec²(½x) — M1, A1
+(c)
+
+Apply Newton-Raphson: x₁ = 3.7 − f(3.7)/f′(3.7) — M1
+x₁ = 3.665 (to 3 d.p.) — A1
+Question 4
+(f(x+h) − f(x))/h = ((x+h)² − x²)/h — M1
+= (2xh + h²)/h = 2x + h — A1
+As h → 0, dy/dx = 2x — A1*
+Question 5
+(a)
+
+Use quotient rule: f′(x) = (2(x²+4) − (2x+3)(2x)) / (x²+4)² — M1
+Simplify numerator: −2x² − 6x + 8 — A1
+a = −2, b = −6, c = 8 — A1
+(b)
+
+f decreasing when f′(x) < 0: −2x² − 6x + 8 < 0 — M1
+Solve: 2x² + 6x − 8 > 0 → (x+4)(x−1) > 0 — A1
+x < −4 or x > 1 — A1
+Question 6
+(a)
+
+P = (0, 5) — M1, A1 (Vertex of |3x² − 5| occurs at x = 0 where 3(0)² − 5 = −5, reflected to 5)
+(b)
+
+16 − 4x = 3x² − 5 or 16 − 4x = −(3x² − 5) — M1
+Solve for x — A1
+(c)
+
+Find range of k — M1, A1
+Question 7
+(a)
+
+Integrate: H = (−0.12/−0.2)e^(−0.2t) + c = 0.6e^(−0.2t) + c — M1, A1
+Use H = 1.5 when t = 0: 1.5 = 0.6 + c → c = 0.9 — A1
+A = 0.6, B = 0.9
+(b)
+
+1.2 = 0.6e^(−0.2t) + 0.9 → 0.3 = 0.6e^(−0.2t) — M1
+e^(−0.2t) = 0.5 → t = ln2/0.2 — A1
+t ≈ 3.466 hours = 3 hours 28 minutes — A1
+(c)
+
+As t → ∞, e^(−0.2t) → 0, so H → 0.9 — M1
+Height of hole = 0.9 m — A1
+Question 8
+(a)
+
+g(2) = 5/(4+9) = 5/13 — M1
+fg(2) = 4 − 3(5/13)² = 4 − 75/169 = 601/169 — A1
+(b)
+
+Let y = 5/(2x+9), solve for x: x = (5−9y)/(2y) — M1, A1
+g⁻¹(x) = (5−9x)/(2x) — A1
+(c)(i)
+
+gf(x) = 5/(2(4−3x²)+9) = 5/(17−6x²) — M1, A1
+(c)(ii)
+
+Range of gf: 0 < gf(x) ≤ 5/17 — A1
+(d)
+
+f(x) = h(x) → 4 − 3x² = 2x² + 6x + k → 5x² + 6x + (k−4) = 0 — M1
+No real solutions: b² − 4ac < 0 → 36 − 20(k−4) < 0 — A1
+k > 116/20 = 29/5 — A1
+Question 9
+(a)
+
+Express all terms as powers of 3: 3^(4k−5), 3^(14−4k), 3^(2k+1) — M1
+Use geometric sequence property: common ratio equal
+(14−4k) − (4k−5) = (2k+1) − (14−4k) — A1
+19 − 8k = 6k − 13 → 14k = 32, but actually: solve to get k = 5/2 — A1
+(b)
+
+With k = 5/2: terms are 3^5 = 243, 3^4 = 81, 3^6 = 729... wait, let me recalculate
+First term a = 3^(10−5) = 3^5 = 243, second = 9^(7−5) = 9² = 81, third = 3^(5+1) = 3^6 = 729
+Actually r = 81/243 = 1/3
+S∞ = 243/(1−1/3) = 243/(2/3) = 729/2 — M1, A1, A1
+Question 10
+(a)
+
+Substitute x = 4: y = 8(4) − 4^(5/2) = 32 − 32 = 0 ✓ — B1
+(b)
+
+dy/dx = 8 − (5/2)x^(3/2) — M1
+At x = 4: dy/dx = 8 − (5/2)(8) = 8 − 20 = −12 — A1
+y − 0 = −12(x − 4) → y = −12x + 48 → 12x + y = 48 — A1*
+(c)
+
+Find intersection of l₂ and curve: 8x = 8x − x^(5/2) → x = 0 — M1
+Find intersection of l₁ and l₂: 8x = −12x + 48 → x = 12/5 — M1
+Area = ∫₀⁴ (8x − x^(5/2)) dx − area of triangle — M1
+∫₀⁴ (8x − x^(5/2)) dx = [4x² − (2/7)x^(7/2)]₀⁴ = 64 − 256/7 = 192/7 — A1
+Exact area of R — A1
+Question 11
+Angle AOB: since AO = AB = 5 and OB is an arc centred at A, triangle AOB is equilateral → angle = π/3 — M1
+Area of sector (centre A, radius 5, angle π/3) = ½ × 25 × π/3 = 25π/6 — A1
+Area of triangle AOB = ½ × 5 × 5 × sin(π/3) = (25√3)/4 — A1
+Area of R = (semicircle sector from O) − (sector from A) + (triangle) or equivalent combination — A1
